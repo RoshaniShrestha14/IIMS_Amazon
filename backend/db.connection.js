@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const dbConnect = async () => {
   try {
 const url =
-  "mongodb+srv://iims:iims123@mernstack.uoq97.mongodb.net/Mini-Amazon?retryWrites=true&w=majority&appName=MernStack";
+  "mongodb+srv://iims:iims123@mernstack.uoq97.mongodb.net/IIMS-Amazon?retryWrites=true&w=majority&appName=MernStack";
 
     await mongoose.connect(url);
 
